@@ -1,0 +1,12 @@
+-- 回滚顺序与外键依赖相反，避免引用完整性错误。
+DROP TABLE IF EXISTS audit_logs;
+DROP TABLE IF EXISTS fines;
+DROP TABLE IF EXISTS reservations;
+DROP TABLE IF EXISTS loans;
+DROP TABLE IF EXISTS book_copies;
+DROP TABLE IF EXISTS book_authors;
+DROP TABLE IF EXISTS authors;
+DROP TABLE IF EXISTS books;
+DROP TABLE IF EXISTS categories;
+DROP TABLE IF EXISTS readers;
+DROP TABLE IF EXISTS users;
